@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://hsftrms.sharepoint.com/sites/ANGroup/SitePages/DevPage.aspx",
+      "customActions": {
+        "576d2de4-20e3-4220-9f8c-cb6403423174": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "headerFooter": {
+      "pageUrl": "https://hsftrms.sharepoint.com/sites/ANGroup/SitePages/DevPage.aspx",
+      "customActions": {
+        "576d2de4-20e3-4220-9f8c-cb6403423174": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}
